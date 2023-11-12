@@ -20,6 +20,13 @@
         text-decoration: none;
     }
 
+    .nav-bar {
+      background-color: rgb(37, 37, 37); 
+      font-size: 22px; 
+      color:white; 
+      padding: 5px;
+    }
+
     .title:active, .title:hover {
         color:black;
         text-decoration: underline;
@@ -53,30 +60,31 @@
 <body>
     <div class="container-fluid">
 
-        <!-- TODO NAVBAR-->
-
-        <div class="navbar bg-body-tertiary">
-          <div class="container-fluid">
-            <div class="text-start" style="font-weight: bold; font-size: 22px;">Muhammad Rizq Ramadhan</div>
-
-            <div class="text-end" style="font-weight: bold; font-size: 22px;">
-              <p>
-                My Project
-              </p>
-            </div>
+      <!-- TODO NAVBAR-->
+      <div class="row nav-bar">
+        <div class="col-md-3">
+          <div class="text-start">
+            Muhammad Rizq Ramadhan
           </div>
         </div>
 
-        <div class="row" style="padding-top: 5vh;">
-            <div class="col-md-12 text-center">
-                <p style="font-size: 50px; font-weight: bold;">Hey, it's me Rizq </p>
-                <p>a student with strong passion to become a data scientist!</p>
-                Browse my project below, <b><a href="https://www.linkedin.com/in/muhammad-rizq-ramadhan-031a1a1ba/" class="me">connect to linkedln</a></b>
-                or 
-                <b><a href="CV_Muhammad Rizq Ramadhan.pdf" class="me" download="">view my resume</a></b>  
-            </div>            
+        <div class="col-md-9 text-end">
+          Portofolio
         </div>
+      </div>
 
+      <div class="row" style="padding-top: 5vh;">
+          <div class="col-md-12 text-center">
+              <p style="font-size: 50px; font-weight: bold;">Hey, it's me Rizq </p>
+              <p>a student with strong passion to become a data scientist!</p>
+              Browse my project below, <b><a href="https://www.linkedin.com/in/muhammad-rizq-ramadhan-031a1a1ba/" class="me">connect to linkedln</a></b>
+              or 
+              <b><a href="CV_Muhammad Rizq Ramadhan.pdf" class="me" download="">view my resume</a></b>  
+          </div>            
+      </div>
+    </div>
+
+    <div class="container-fluid">
         <div class="row pt-4">
             <div class="col-md-2"></div>
 
@@ -220,12 +228,14 @@
         <!-- TODO FOOTER-->
 
         <div class="row pt-5">
-          <div class="col-md-12 text-center" style="background-color: rgb(32, 32, 32);">
-                <p class="pt-3" style="color:rgb(238, 230, 230); font-size: 18px;">
-                  © 2023 Rizq Ramadhan. Some rights reserved.
-                </p>
+
+          <div class="row nav-bar">
+            <div class="col-md-12">
+              <div class="text-center" style="font-size: 18px;">
+                © 2023 Rizq Ramadhan. Some rights reserved.
+              </div>
             </div>
-        </div>
+          </div>
 
     </div>
 
