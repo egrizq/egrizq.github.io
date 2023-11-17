@@ -4,6 +4,25 @@ body {
     text-justify: inter-word;
 }
 
+@media screen and (max-width: 600px){
+    div.col3 {
+        display: none;
+    }
+    .col-6 {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    div.col3 {
+        display: none;
+    }
+    .col-6 {
+        width: 100% !important;
+    }
+}
+
+
 .photo {
     width: 150px;
 }
