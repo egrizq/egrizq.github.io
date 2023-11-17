@@ -1,0 +1,50 @@
+body {
+    font-family: "Cascadia Mono";
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.photo {
+    width: 150px;
+}
+
+.cv {
+    color:black;
+}
+
+.box {
+    background-color: rgb(231, 234, 236); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box-title {
+    background: rgb(99, 228, 99);
+    padding: 5px;
+    display: inline-block;  
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.title {
+    text-decoration: none;
+    color: black;
+}
+
+.title-code {
+    color: black;
+
+}
+
+.skill {
+    width:125px;
+    padding: 5px;
+}
+
+.project1 {
+    display: block;
+}
+
+.project2 {
+    display: none;
+}
