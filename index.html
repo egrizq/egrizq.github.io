@@ -11,8 +11,19 @@
 <body>
     <div class="container-fluid" style="padding: 5vh;">
         <div class="row">
-            <div class="col-3 col3"></div>
+            <div class="col-3 col3">
+                <div class="side fw-bold">
+                    <a class="title" href="#project">Projects</a> <br>
+                    <a class="title" href="#education">Education</a> <br>
+                    <a class="title" href="#work">Work Experience</a> <br>
+                    <a class="title" href="#skills">Skills</a> <br>
+                    <a class="title" href="#training">Training & Certification</a>
+                </div>
+            </div>
+
             <div class="col-6">
+                <section id="up"></section>
+
                 <img src="/round photo.png" class="photo">
 
                 <div class="pt-4">
@@ -29,6 +40,7 @@
                     <p><a class="cv" href="CV_Muhammad Rizq Ramadhan.pdf" download="">Resume</a> or <a class="cv" href="https://www.linkedin.com/in/muhammad-rizq-ramadhan-031a1a1ba/">LinkedIn</a></p>
                 </div>
 
+                <section id="project"></section>
                 <div class="pt-4">
                     <div class="pb-4">
                         <h4><u>Projects</u></h4>
@@ -120,13 +132,14 @@
                     </div>
                 </div>
 
+                <section id="education"></section>
                 <div class="pt-4">
                     <div class="pb-4">
                         <h4><u>Education</u></h4>
                     </div>
                     <h5>Computer Science</h5>
                     <p>Universitas Dian Nusantara (2021 – Expected 2025)</p>
-                    <p>Having a <b>3.48 cumulative IPK</b> in the 4th semester</p>
+                    <p>Having a <u>3.48 cumulative IPK</u> in the 4th semester</p>
                     <p>I'm enthusiastic about pursuing opportunities in the data field to contribute my skills in data analysis, programming, and problem-solving to a dynamic team.</p>
 
                     <!-- <h5>Universitas Gunadarma</h5>
@@ -134,6 +147,7 @@
                     
                 </div>
 
+                <section id="work"></section>
                 <div class="pt-4">
                     <div class="pb-4">
                         <h4><u>Work Experience</u></h4>
@@ -147,6 +161,7 @@
                     </ul>
                 </div>
 
+                <section id="skills"></section>
                 <div class="pt-4">
                     <div class="pb-4">
                         <h4><u>Skills</u></h4>
@@ -162,12 +177,56 @@
                         <button class="skill">Javascript</button>
                     </div>
                 </div>
+
+                <section id="training"></section>
+                <div class="pt-5">
+                    <div class="pb-4">
+                        <h4><u>Trainings & Certification</u></h4>
+                    </div>
+                    
+                    <h5>IDCamp 2023</h5>
+                    <p>Data Science Learning Path</p>
+                    <ul>
+                        <li><a class="title" onclick="dasarData()">Belajar Dasar Data Science</a></li>
+                        <li><a class="title" onclick="sql()">Belajar Struktur Query Language (SQL)</a></li>
+                        <li><a class="title" onclick="python()">Memulai Pemrograman dengan Python</a></li>
+                        <li><a class="title" onclick="analisisPython()">Belajar Analysis Data Science</a></li>
+                        <li><a class="title" onclick="ml()">Belajar Machine Learning dengan Python</a></li>
+                    </ul>
+
+                    <h5>Dicoding</h5>
+                    <p>Dicoding For University Batch 1</p>
+                    <ul>
+                        <li><a class="title" onclick="js()">Belajar Dasar Javascript</a></li>
+                        <li><a class="title" onclick="projek()">Belajar Dasar Manajer Projek</a></li>
+                        <li><a class="title" onclick="pengembang()">Memulai Dasar Pemrograman untuk Menjadi Pengembang Software</a></li>
+                    </ul>
+
+                    <h5>Others</h5>
+
+                    <p>Coursera</p>
+                    <ul>
+                        <li><a class="title" onclick="introtf()">Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning </a></li>
+                    </ul>
+
+                    <p>Udemy</p>
+                    <ul>
+                        <li><a class="title" onclick="excel()">Microsoft Excel – Advanced Excel Formulas & Functions</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="text-center pt-4 fw-bold h4">
+                    <a class="title" href="#up">Going Up ↑</a>
+                </div>
+
             </div>
 
             <div class="col-3 col3"></div>
         </div>
 
     </div>
+
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
 
