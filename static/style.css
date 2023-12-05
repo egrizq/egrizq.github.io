@@ -11,6 +11,12 @@ body {
     .col-6 {
         width: 100% !important;
     }
+    div.navi {
+        display: none;   
+    }
+    div.main {
+        padding-top: 0px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -19,6 +25,19 @@ body {
     }
     .col-6 {
         width: 100% !important;
+    }
+    div.navi {
+        display: none;   
+        padding: 0px;
+    }
+    div.main {
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    div.main {
+        padding-top: 5vh;
     }
 }
 
@@ -36,6 +55,9 @@ body {
     color:black;
 }
 
+/* .date {
+    text-decoration: underline;
+} */
 
 .box {
     background-color: rgb(231, 234, 236); 
