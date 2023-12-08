@@ -1,5 +1,11 @@
 const page2 = document.getElementById("page2")
 const project2 = document.querySelectorAll(".project2")
+const email = document.getElementById('email')
+
+email.addEventListener('click', function() {
+    email.innerHTML = 'rizq.ramadhan17@gmail.com'
+    email.style.cursor = 'text'
+})
 
 project2.forEach(function(project2) {
     page2.addEventListener('click', function() {
