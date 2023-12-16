@@ -14,6 +14,10 @@ project2.forEach(function(project2) {
     })
 })
 
+function pengembang() {
+    window.open("https://www.dicoding.com/certificates/EYX40971OPDL", "dicoding","width=800px height=500px")
+}
+
 function dasarData() {
     window.open("https://www.dicoding.com/certificates/98XWVRKELPM3", "dicoding","width=800px height=500px")
 }
