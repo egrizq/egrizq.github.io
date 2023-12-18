@@ -14,7 +14,7 @@ project2.forEach(function(project2) {
     })
 })
 
-function pengembang() {
+function pengembangML() {
     window.open("https://www.dicoding.com/certificates/EYX40971OPDL", "dicoding","width=800px height=500px")
 }
 
