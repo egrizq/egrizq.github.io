@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="icon/favicon.png">
     <title>Welcome!</title>
-    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">   
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">   
     <link rel="stylesheet" href="/static/style.css">
 </head>
 
 <body>
-    <div class="container-fluid" style="padding-top: 2vh;">
-        <div class="row text-center fixed-top shadow-sm navi" style="background-color: white; ">
+    <div class="container-fluid">
+        <nav class="row text-center fixed-top shadow-sm navi" style="background-color: white; ">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                   <a class="nav-link title" href="#project">Projects</a>
@@ -29,22 +29,22 @@
                     <a class="nav-link title" href="#tech-stack">Tech Stack</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link title" href="#training">Certification</a>
+                    <a class="nav-link title" href="#training">Training</a>
                 </li>  
               </ul>
-        </div>
+        </nav>
 
         <div class="row main">
             <div class="col-3 col3"></div>
 
-            <div class="col-6">
+            <div class="col-6" style="padding-top: 2vh;">
                 <div id="up"></div>
 
                 <img src="photo/round photo.png" class="photo">
 
                 <div class="pt-4 h3">
                     <p>Hey, I'm Muhammad Rizq Ramadhan</p>
-                    <p>I'm a Data Scientist</p>
+                    <p>I'm a Software Engineering</p>
                     <p>Based in Jakarta, Indonesia</p>
                 </div>
 
@@ -220,6 +220,7 @@
                         <button class="skill">HTML</button>
                         <button class="skill">CSS</button>
                         <button class="skill">Javascript</button>
+                        <button class="skill">Golang</button>
                     </div>
                 </div>
 
@@ -233,15 +234,16 @@
                         <button class="skill">Pandas</button>
                         <button class="skill">Matplotlib</button>
                         <button class="skill">Seaborn</button>
-                        <button class="skill">TensorFlow</button>
                         <button class="skill">Flask</button>
                         <button class="skill">Boostrap</button>
+                        <button class="skill">Gin</button>
+                        <button class="skill">Gorm</button>
                     </div>
                 </div>
 
                 <div class="pt-5" id="training">
                     <div class="pb-4">
-                        <h4><u>Certification</u></h4>
+                        <h4><u>Training</u></h4>
                     </div>
                         
                     <h5>IDCamp 2023</h5>
@@ -297,6 +299,6 @@
     </div>
 
     <script src="/static/main.js"></script>
-    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
