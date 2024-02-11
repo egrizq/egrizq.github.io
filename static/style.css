@@ -11,7 +11,7 @@ body {
     .col-6 {
         width: 100% !important;
     }
-    div.navi {
+    nav {
         display: none;   
     }
     div.main {
@@ -26,7 +26,7 @@ body {
     .col-6 {
         width: 100% !important;
     }
-    div.navi {
+    nav {
         display: none;   
         padding: 0px;
     }
